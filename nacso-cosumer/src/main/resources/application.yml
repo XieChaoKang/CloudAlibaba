@@ -1,0 +1,10 @@
+server:
+  port: 8882
+
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.23.54.104

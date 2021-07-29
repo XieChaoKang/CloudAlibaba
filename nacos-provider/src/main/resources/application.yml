@@ -1,0 +1,10 @@
+server:
+  port: 8881
+
+spring:
+  application:
+    name: nacos-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.23.54.104
